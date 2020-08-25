@@ -1,0 +1,23 @@
+{
+  "name": "lem-uk3",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/plugin-sitemap": "^0.4.0",
+    "@pienter/gridsome-source-directus": "^1.0.2",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-seo": "^1.0.1",
+    "slugify": "^1.4.5",
+    "uikit": "^3.5.6"
+  },
+  "devDependencies": {
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3"
+  }
+}
