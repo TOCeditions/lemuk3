@@ -7,7 +7,7 @@
     <div class="uk-container uk-margin">
       <ul class="uk-subnav">
         <li v-for="edge in $static.navs.edges" :key="edge.node.id">
-          <a :id="edge.node.title" :href="edge.node.link/">#{{ edge.node.title}}</a>
+          <a :id="edge.node.title" :href="edge.node.link">#{{ edge.node.title}}</a>
         </li>
       </ul>
       <slot />
