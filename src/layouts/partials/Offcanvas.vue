@@ -1,5 +1,5 @@
 <template>
-  <div id="offcanvas" uk-offcanvas="flip: false; overlay: true">
+  <div id="offcanvas" uk-offcanvas="flip: true; overlay: true">
     <div class="uk-offcanvas-bar">
       <button class="uk-offcanvas-close" type="button" uk-close></button>
 
