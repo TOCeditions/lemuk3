@@ -11,7 +11,7 @@
             </p>
           </div>
           <div class="uk-width-auto@m">
-            <a class="uk-button uk-button-default uk-button-large" href="#">Button</a>
+            <g-image src="~/img/logo/lem-logo-white.svg" width="200" />
           </div>
         </div>
       </div>

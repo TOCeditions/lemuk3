@@ -10,6 +10,7 @@
           <a :id="edge.node.title" :href="edge.node.link">#{{ edge.node.title}}</a>
         </li>
       </ul>
+
       <slot />
     </div>
 
