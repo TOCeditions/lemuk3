@@ -7,6 +7,15 @@
     </div>
     <div class="uk-section uk-section-muted">
       <div class="uk-container">
+        <div>
+          <Pager
+            :info="$page.ants.pageInfo"
+            :range="$page.ants.pageInfo.perPage"
+            activeLinkClass="uk-active uk-button-primary"
+            linkClass="uk-button uk-button-default"
+            class="uk-width-auto@m uk-border-rounded uk-pagination uk-navbar-nav uk-padding-small uk-text-large"
+          />
+        </div>
         <ul v-if="$page.ants.edges.length" class="uk-list uk-list-divider uk-list-large">
           <li v-for="book in $page.ants.edges" :key="book.node.ROK" class="uk-hover">
             <div class="uk-grid">
@@ -38,15 +47,6 @@
           </li>
         </ul>
         <p v-else>No content in DB</p>
-        <div>
-          <Pager
-            :info="$page.ants.pageInfo"
-            :range="$page.ants.pageInfo.perPage"
-            activeLinkClass="uk-active uk-button-primary"
-            linkClass="uk-button uk-button-default"
-            class="uk-width-auto@m uk-border-rounded uk-pagination uk-navbar-nav uk-padding-small uk-text-large"
-          />
-        </div>
       </div>
     </div>
   </Layout>
