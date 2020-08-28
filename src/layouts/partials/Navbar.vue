@@ -68,9 +68,21 @@
             </li>
           </ul>
 
-          <a class="uk-navbar-toggle" href="#modal" uk-icon="icon: question" uk-toggle></a>
-          <a class="uk-navbar-toggle" href="#modal-search" uk-search-icon uk-toggle></a>
-          <a class="uk-navbar-toggle" href="#offcanvas" uk-navbar-toggle-icon uk-toggle></a>
+          <a
+            class="uk-navbar-toggle"
+            name="kliknij"
+            href="#modal"
+            uk-icon="icon: question"
+            uk-toggle
+          ></a>
+          <a class="uk-navbar-toggle" name="kliknij" href="#modal-search" uk-search-icon uk-toggle></a>
+          <a
+            class="uk-navbar-toggle"
+            name="kliknij"
+            href="#offcanvas"
+            uk-navbar-toggle-icon
+            uk-toggle
+          ></a>
         </div>
       </div>
     </div>
