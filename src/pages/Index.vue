@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="uk-section">
+    <div class="uk-container uk-padding-large">
       <h1 class="uk-text-xlarge">
         <strong>CUS</strong>
       </h1>
@@ -8,15 +8,15 @@
       <p
         class="text-lg"
       >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores</p>
+      <ul class="home-links flex mt-10 text-blue-900 text-lg">
+        <li class="btn btn-blue">
+          <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
+        </li>
+        <li class="btn btn-blue">
+          <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
+        </li>
+      </ul>
     </div>
-    <ul class="home-links flex mt-10 text-blue-900 text-lg">
-      <li class="btn btn-blue">
-        <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      </li>
-      <li class="btn btn-blue">
-        <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-      </li>
-    </ul>
   </Layout>
 </template>
 

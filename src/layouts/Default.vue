@@ -4,15 +4,7 @@
       <Navbar />
     </div>
 
-    <div class="uk-container uk-margin">
-      <ul class="uk-subnav uk-subnav-pill">
-        <li v-for="edge in $static.navs.edges" :key="edge.node.id">
-          <a :id="edge.node.title" :href="edge.node.link">#{{ edge.node.title}}</a>
-        </li>
-      </ul>
-
-      <slot />
-    </div>
+    <slot />
 
     <Footer />
     <Offcanvas />
@@ -46,12 +38,14 @@
 
 <script>
 import Navbar from "~/layouts/partials/Navbar.vue";
+import Kolekcje from "~/layouts/partials/Kolekcje.vue";
 import Offcanvas from "~/layouts/partials/Offcanvas.vue";
 import Footer from "~/layouts/partials/Footer.vue";
 
 export default {
   components: {
     Navbar,
+    Kolekcje,
     Footer,
     Offcanvas,
   },

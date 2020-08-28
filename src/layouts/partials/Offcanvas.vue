@@ -36,20 +36,19 @@
           </a>
         </li>
       </ul>
-
-      <h3>Title</h3>
-
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.
-      </p>
+      <Kolekcje />
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import Kolekcje from "~/layouts/partials/Kolekcje-nav.vue";
+
+export default {
+  components: {
+    Kolekcje,
+  },
+};
 </script>
 
 <style>
