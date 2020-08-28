@@ -3,7 +3,7 @@
     <div class="uk-container sticky">
       <div uk-navbar>
         <div class="uk-navbar-left">
-          <a class="uk-navbar-item uk-logo" href="/">
+          <g-link class="uk-navbar-item uk-logo" alt="Strona glówna" to="/">
             <g-image
               class="uk-margin-small-right"
               alt="Bibliografia Stanisława Lema"
@@ -11,7 +11,7 @@
               width="60"
             />
             <span class="uk-visible@m">{{ $static.metadata.siteName }}</span>
-          </a>
+          </g-link>
         </div>
 
         <div class="uk-navbar-right">
