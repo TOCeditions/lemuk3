@@ -44,7 +44,7 @@
             :range="$page.ants.pageInfo.perPage"
             activeLinkClass="uk-active uk-button-primary"
             linkClass="uk-button uk-button-default"
-            class="uk-width-1-3@m uk-border-rounded uk-pagination uk-navbar-nav uk-padding-small uk-text-large"
+            class="uk-width-auto@m uk-border-rounded uk-pagination uk-navbar-nav uk-padding-small uk-text-large"
           />
         </div>
       </div>

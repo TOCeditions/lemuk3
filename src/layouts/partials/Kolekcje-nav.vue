@@ -1,7 +1,7 @@
 <template>
   <ul class="uk-nav">
     <li v-for="edge in $static.navs.edges" :key="edge.node.id">
-      <g-link :to="{path: '/'+edge.node.link} ">{{ edge.node.title }}</g-link>
+      <g-link :to="{path: '/'+edge.node.link+'/'} ">{{ edge.node.title }}</g-link>
     </li>
   </ul>
 </template>
