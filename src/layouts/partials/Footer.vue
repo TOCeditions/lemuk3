@@ -11,7 +11,7 @@
             </p>
           </div>
           <div class="uk-width-auto@m">
-            <g-image src="~/img/logo/lem-logo-white.svg" width="200" />
+            <g-image src="~/img/logo/lem-logo-white.svg" width="200" alt="Lem" />
           </div>
         </div>
       </div>

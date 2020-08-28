@@ -33,7 +33,7 @@
                   {{book.node.WYDAWN}}, {{book.node.MIEJWYD}} {{book.node.ROK}}
                 </p>
               </div>
-              <div class="uk-text-meta uk-width-expand">
+              <div class="uk-text-small uk-width-expand">
                 <p class="uk-margin-small uk-text-secondary">
                   <strong>Dodatkowe informacje</strong>
                 </p>
