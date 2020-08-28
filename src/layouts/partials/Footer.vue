@@ -4,7 +4,7 @@
       <div class="uk-container">
         <div class="uk-grid-large uk-flex-middle" uk-grid>
           <div class="uk-width-expand@m">
-            <h1 class="uk-text-xl">Partnerzy</h1>
+            <h2 class="uk-text-xl">Partnerzy</h2>
             <p class="uk-text-large">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor.
@@ -21,7 +21,7 @@
       <div class="uk-container">
         <div class="uk-grid-large uk-flex-middle" uk-grid>
           <div class="uk-width-expand@m">
-            <h3 class="uk-text-xl">Kontakt</h3>
+            <h2 class="uk-text-xl">Kontakt</h2>
 
             <p class="uk-text-large">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
