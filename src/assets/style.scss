@@ -12,7 +12,17 @@ $global-border: #CECECE;
 
 // 3. Your custom mixin overwrites.
 @mixin hook-button {
-    border-radius: 30px;;
+    border-radius: 30px;
 }
+
+// @mixin hook-nav() {
+// @nav-default-item-color: #383737;
+// @nav-default-item-hover-color: #1C1B1B;
+// }
+
+// @mixin hook-navar {
+// $navbar-nav-item-color: #464441;
+// }
+
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";
