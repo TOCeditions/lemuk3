@@ -70,15 +70,21 @@
 
           <a
             class="uk-navbar-toggle"
-            name="kliknij"
+            aria-label="search"
             href="#modal"
             uk-icon="icon: question"
             uk-toggle
           ></a>
-          <a class="uk-navbar-toggle" name="kliknij" href="#modal-search" uk-search-icon uk-toggle></a>
           <a
             class="uk-navbar-toggle"
-            name="kliknij"
+            aria-label="pomoc"
+            href="#modal-search"
+            uk-search-icon
+            uk-toggle
+          ></a>
+          <a
+            class="uk-navbar-toggle"
+            aria-label="baza"
             href="#offcanvas"
             uk-navbar-toggle-icon
             uk-toggle
