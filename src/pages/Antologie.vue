@@ -7,6 +7,15 @@
     </div>
     <div class="uk-section uk-section-muted">
       <div class="uk-container">
+        <div class="uk-padding">
+          <Pager
+            :info="$page.ants.pageInfo"
+            :range="12"
+            activeLinkClass="uk-active uk-button-primary"
+            linkClass="uk-icon-button"
+            class="uk-width-auto@m uk-border-rounded uk-pagination uk-navbar-nav _k-text-large pagi"
+          />
+        </div>
         <ul v-if="$page.ants.edges.length" class="uk-list uk-list-divider uk-list-large">
           <li v-for="book in $page.ants.edges" :key="book.node.ROK" class="uk-hover">
             <div class="uk-grid">
@@ -38,15 +47,6 @@
           </li>
         </ul>
         <p v-else>No content in DB</p>
-        <div>
-          <Pager
-            :info="$page.ants.pageInfo"
-            :range="2"
-            activeLinkClass="uk-active uk-button-primary"
-            linkClass="uk-icon-button"
-            class="uk-width-auto@m uk-border-rounded uk-pagination uk-navbar-nav _k-text-large pagi"
-          />
-        </div>
       </div>
     </div>
   </Layout>
@@ -63,7 +63,7 @@ export default {
       name: "Antologie Lemowskie",
       showid: false,
       antologie: null,
-      pagerIle: 6,
+      pagerIle: 2,
     };
   },
   metaInfo: {
